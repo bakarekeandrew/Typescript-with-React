@@ -5,7 +5,8 @@ import React from 'react'
 // import ButtonComponent from "./ButtonComponent";
 // import Increment_Ex4 from './Increment_Ex4'
 // import MappingList from './MappingList'
-import MainMapping from './MainMapping'
+// import MainMapping from './MainMapping'
+import BuildingForm from './BuildingForm'
 const Main: React.FC = () => {
   return (
     // <Todos />
@@ -14,7 +15,8 @@ const Main: React.FC = () => {
     // <ButtonComponent />
     // <Increment_Ex4 />
     // <MappingList />
-    <MainMapping />
+    // <MainMapping />
+    <BuildingForm / >
   )
 }
 
