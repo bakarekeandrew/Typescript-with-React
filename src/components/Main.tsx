@@ -6,9 +6,16 @@ import React from 'react'
 // import Increment_Ex4 from './Increment_Ex4'
 // import MappingList from './MappingList'
 // import MainMapping from './MainMapping'
-import BuildingForm from './BuildingForm'
+// import BuildingForm from './BuildingForm'
+// import FetchingData from './FetchingData'
+import Form from './Form'
+
 const Main: React.FC = () => {
   return (
+    <div>
+      <Form />
+       {/* <FetchingData /> */}
+    </div>
     // <Todos />
     // <Toggle />
     // <UserProfile name="Andrew Bakareke" email="bakarekeandrew@gmail.com" avatar="src\assets\myProfile1-removebg-preview.png" />
@@ -16,7 +23,7 @@ const Main: React.FC = () => {
     // <Increment_Ex4 />
     // <MappingList />
     // <MainMapping />
-    <BuildingForm / >
+    // <BuildingForm / >
   )
 }
 

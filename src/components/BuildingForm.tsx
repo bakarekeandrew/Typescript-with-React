@@ -7,7 +7,7 @@ const BuildingForm:React.FC = () => {
     const handleEvent = (e: React.MouseEvent<HTMLButtonElement>) => {
         e.preventDefault();
         alert("Hello " + firstName + " " + secondName + " !");
-        setFirstName("");
+        setFirstName(""); 
         setSecondName("");
 
     }
