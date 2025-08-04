@@ -8,12 +8,14 @@ import React from 'react'
 // import MainMapping from './MainMapping'
 // import BuildingForm from './BuildingForm'
 // import FetchingData from './FetchingData'
-import Form from './Form'
+// import Form from './Form'
+import ExpenseTracker from './ExpenseTracker'
 
 const Main: React.FC = () => {
   return (
-    <div>
-      <Form />
+    <div className='p-5'>
+      <ExpenseTracker />
+      {/* <Form /> */}
        {/* <FetchingData /> */}
     </div>
     // <Todos />
