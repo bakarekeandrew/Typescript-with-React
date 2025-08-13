@@ -5,7 +5,7 @@ const Todos: React.FC = () => {
   const [todos, setTodos] = useState<string[]>([]);
 
      
-   const handleEvent = (e) => {
+   const handleEvent = (e: React.ChangeEvent<HTMLInputElement>) => {
      setTodo(e.target.value);
    }
    const handleAddButton = () => {

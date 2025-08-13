@@ -1,4 +1,5 @@
 import React from 'react'
+import NavBar from './NavBar'
 // import Todos from "./Todos";
 // import UserProfile from "./userProfile";
 // import Toggle from "./ToggleButton";
@@ -9,12 +10,28 @@ import React from 'react'
 // import BuildingForm from './BuildingForm'
 // import FetchingData from './FetchingData'
 // import Form from './Form'
-import ExpenseTracker from './ExpenseTracker'
+// import ExpenseTracker from './ExpenseTracker'
+// import Calculator from './Calculator'
+// import DarkMode from './DarkMode'
+import NavBarr from './NavBar'
+import Home from '../Routers/VanLife/Home'
+import About from '../Routers/VanLife/About'
+import { Routes, Route } from 'react-router-dom'
 
 const Main: React.FC = () => {
   return (
-    <div className='p-5'>
-      <ExpenseTracker />
+    <div>
+      <NavBarr />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+      {/* <DarkMode /> */}
+      {/* Uncomment the components you want to use */}
+      {/* <Todos /> */}
+      {/* <UserProfile name="Andrew Bakareke" email="
+      {/* <Calculator /> */}
+      {/* <ExpenseTracker /> */}
       {/* <Form /> */}
        {/* <FetchingData /> */}
     </div>
