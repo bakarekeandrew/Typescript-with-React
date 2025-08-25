@@ -17,15 +17,19 @@ import NavBarr from './NavBar'
 import Home from '../Routers/VanLife/Home'
 import About from '../Routers/VanLife/About'
 import { Routes, Route } from 'react-router-dom'
+import FetchingUserss from './FetchingUserss'
+import MultiState from './MultiState'
 
 const Main: React.FC = () => {
   return (
     <div>
-      <NavBarr />
+      {/* <FetchingUserss /> */}
+      <MultiState />
+      {/* <NavBarr />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-      </Routes>
+      </Routes> */}
       {/* <DarkMode /> */}
       {/* Uncomment the components you want to use */}
       {/* <Todos /> */}
