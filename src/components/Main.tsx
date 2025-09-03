@@ -19,12 +19,16 @@ import About from '../Routers/VanLife/About'
 import { Routes, Route } from 'react-router-dom'
 import FetchingUserss from './FetchingUserss'
 import MultiState from './MultiState'
+// import FetchingMental from './FetchingMental'
+import Validation from './Validation'
 
 const Main: React.FC = () => {
   return (
     <div>
+      <Validation />
+      {/* <FetchingMental /> */}
       {/* <FetchingUserss /> */}
-      <MultiState />
+      {/* <MultiState /> */}
       {/* <NavBarr />
       <Routes>
         <Route path="/" element={<Home />} />
